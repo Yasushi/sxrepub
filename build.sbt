@@ -5,7 +5,8 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-simple" % "1.6.1",
   "com.github.scala-incubator.io" % "scala-io-core_2.9.0-1" % "0.2.0-SNAPSHOT" notTransitive(),
   "com.github.scala-incubator.io" % "scala-io-file_2.9.0-1" % "0.2.0-SNAPSHOT" notTransitive(),
-  "com.github.jsuereth.scala-arm" %% "scala-arm" % "0.3"
+  "com.github.jsuereth.scala-arm" %% "scala-arm" % "0.3",
+  "net.databinder" %% "dispatch-tagsoup" % "0.8.7"
 )
 
 resolvers += ScalaToolsSnapshots
